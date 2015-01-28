@@ -1196,9 +1196,9 @@
     exports.qr = qr;
 
     // Import required node.js modules.
-    Canvas = require('canvas');
+    Canvas = require('canvas-browserify');
     Image = Canvas.Image;
-    fs = require('fs');
+    fs = require('browserify-fs');
   } else if (typeof define === 'function' && define.amd) {
     define(function () {
       return qr;
