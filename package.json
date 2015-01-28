@@ -29,6 +29,7 @@
     "url": "git://github.com/chrishoage/qr.js.git"
   },
   "dependencies": {
+    "browserify-fs": "^1.0.0",
     "canvas-browserify": "~1.1.1"
   },
   "devDependencies": {
